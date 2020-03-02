@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Oxanium|Roboto&display=swap');
+
+html, body{
+    background-color: #FAF9F9 !important;
+    font-family: Oxanium;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.brand-colors{
+    background-color: #FAF9F9;
+}
+.navbar{
+    letter-spacing: 2px;
+}
+.brand-colors ul li a{
+    font-size: 1.25em;
+    color: #89B0AE !important;
+    font-weight: bold;
+    transition: color .25s ease-in-out;
+}
+.navbar-brand{
+    font-size: 1.25em;
+    color:#555B6E !important;
+    font-weight: bold;
+}
+.brand-colors ul li a:hover{
+    color:#555B6E !important;
+    transition: color .25s ease-in-out;
+}
+.brand-number{
+    color: orange;
+}
+.page-footer{
+    background-color: #555B6E;
+    color: #FAF9F9;
+}
+.page-footer a{
+    color: #FAF9F9;
+    text-decoration: underline;
+}
+.classification{
+    font-weight: bold;
+    color: blue;
+    font-family: sans-serif;
+    padding: 25px 15px 25px 15px;
+}
+#submit-button{
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 15px;
+    color: blue;
+    font-weight: bold;
+    transition: background-color .25s ease-in-out;
+}
+#submit-button:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    transition: background-color .25s ease-in-out;
+}
+body{
+    margin: auto;
+    text-align: center;
+}
+.table-form{
+    padding: 25px;
+    margin: auto;
+}
+label{
+    font-family: sans-serif;
+}
+h1{
+    font-family: sans-serif;
+}
+.whitespace{
+    padding: 25px;
+}
+.table-form label{
+    padding: 25px;
+    font-weight: bold;
+}
+#num1, #num2, #num3, #num4{
+    padding: 10px;
+    border: 2px solid blue;
+}

@@ -29,29 +29,25 @@
 
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light brand-colors pt-3">
-      <a class="navbar-brand" href="#">Nolan Harless<span class="brand-number">13</span></a>
+      <a class="navbar-brand" href="#">Nolan Harless:<span class="brand-number"> Module 4: App Challenge Today</span></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ">
-          <li class="nav-item active pr-3 pl-3">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item pr-3 pl-3">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item pr-3 pl-3">
-            <a class="nav-link" href="experience.html">Experience</a>
-          </li>
-          <li class="nav-item pr-3 pl-3">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
     </nav>
   </div>
 
+  <div class="table-form">
+    <label>Number 1 </label><input type="number" name="num1" placeholder="Input number" id="num1"><br>
+    <label>Number 2 </label><input type="number" name="num2" placeholder="Input number" id="num2"><br>
+    <label>Number 3 </label><input type="number" name="num3" placeholder="Input number" id="num3"><br>
+    <label>Number 4 </label><input type="number" name="num4" placeholder="Input number" id="num4">
+   </div>
+    <input id="submit-button" type="submit" value="calculate avergae" name="submit" onclick="calculate()">
+        <div id="InputTable">
+        <div class="classification">Average: </div><div class="outputText" id="TotalAverage">$0</div>
+    </div>
+</form>
+<div class="whitespace"></div>
 
 <!-- Footer -->
 <footer class="page-footer">
@@ -65,14 +61,11 @@
 </footer>
 <!-- Footer -->
 
-  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/javascript.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <script src="js/vueScripts.js"></script>
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
